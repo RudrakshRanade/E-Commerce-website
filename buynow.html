@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE-edge">
+  <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="industrial training, education, online courses, web development, engineering">
+
+    <title>Sign-Up page</title>
+    <link rel="shortcut icon" href="C:\Users\rudra\OneDrive\Pictures\Saved Pictures\images\project icon.jpg">
+    <link rel="stylesheet" href="project.css">
+
+    <!-- bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- style font awesome libraries cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <nav class="nav d-flex justify-content-between nav-fixed"> 
+
+    <div class="logo">
+      <img src="C:\Users\rudra\OneDrive\Pictures\Saved Pictures\images\R (6).jpg" width="50px" alt="company logo">
+    </div>
+
+  <div class=" right-nav" id="navbarSupportedContent">
+    <!-- nav bar copied from bootstrap -->
+    <ul class="nav justify-content-end">
+      <div class="searchbar">
+      <form class="search d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
+     <li class="nav-item">
+       <a class="nav-link active nav-content" aria-current="page" href="project-main-page.html"><i class="fa-solid fa-house"></i> Home </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link nav-content" aria-current="page" target="blank" href="project-cart.html"><i class="fa-solid fa-cart-arrow-down"></i> My Cart </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link nav-content" href="project-sevices.html"><i class="fa-regular fa-address-book"></i> Services </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link nav-content" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-regular fa-user"></i> Login </a>
+     </li>
+    </ul>
+    </div> 
+    
+    </nav> 
+    
+
+   <!-- main section -->
+
+<section class="buynow-section2">
+    <form name="form-googlesheet-2" onsubmit="return validation()" method="post">
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="text" class="form-control" name="Name" id="exampleInputName1">
+            <span id="erroruser" style="color:red; font-size:10px;"></span>
+          </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email address</label>
+              <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <span id="erroremail" style="color:red; font-size:10px;"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Residential Address</label>
+                <input type="email" class="form-control" name="Address" id="exampleInputAddress1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your addess with anyone else.</div>
+                <span id="erroremail" style="color:red; font-size:10px;"></span>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Phone No.</label>
+                <input type="number" class="form-control" name="Number" id="exampleInputNumber">
+                <span id="errornumber" style="color:red; font-size:10px;"></span>
+              </div>
+
+              <div class="mb-3">
+                <label>Payment Type</label><br>
+                <input type="radio" name="Payment Type" value="card">Credit/Debit Card <br>
+                <input type="radio" name="Payment Type" value="upi">UPI <br>
+                <input type="radio" name="Payment Type" value="cod">Cash on delivery
+                </div>
+
+          <div class="checkout">
+            <button type="submit" class="btn btn-primary">Check Out</button>
+        </div>
+    </form>
+</section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome Back!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <small>Login using your registered E-mail ID.</small>
+      <form>
+        <input type="email" placeholder="Email-ID" required><br>
+        <input type="password" placeholder="password" required><br>
+        <button type="submit">Login</button>
+        <p>Don't have an account? <a href="signup.html">Creat one</a></p>
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"
+ referrerpolicy="no-referrer"></script>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+
+  const scriptURL =
+  
+  'https://script.google.com/macros/s/AKfycbydf0go4WHL091DvvDsbu7uKCRFE8Q2pvSUGmyE8c07OYd7d0FgT4neCDLTV1ikMk1h1g/exec'
+  
+  const form = document.forms['form-googlesheet-2']
+  
+  form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, {
+  method: 'POST',
+  body: new FormData(form)
+  })
+  .then(response => alert(
+  "Thanks for Registration"))
+  .catch(error => console.error('Error!', error.message))
+  })
+  
+  </script>
+
+</body>

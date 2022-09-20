@@ -1,0 +1,391 @@
+body{
+    background-image: linear-gradient(120deg, rgb(218, 210, 210), rgb(238, 231, 231));
+}
+
+nav{
+    padding:0px 20px;
+margin: 10px;
+}
+
+.nav{
+position:relative;
+background-color: white;
+box-shadow: 0px 3px 67px rgba(0, 0, 0, .15);
+}
+
+.search{
+    align-self: center;
+}
+
+.nav-fixed{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:2;
+}
+
+.right-nav{
+    margin-top: 10px;
+    float: right;
+}
+
+.right-nav .nav-content{
+    color: rgb(18, 18, 61);
+    font-weight: 800;
+}
+
+.right-nav .nav-content:hover{
+    color: hotpink;
+}
+
+.right-nav .nav-content.active{
+    color: darkred;
+}
+
+.sec1{
+    height:650px;
+    padding-top:80px;
+    width: 100%;
+}
+
+.carousel-item{
+  height:320px;
+}
+
+.btn{
+    background-size: 68px 52px;
+    outline:0;
+}
+
+.sec2{
+    margin-top:-240px;
+    margin-left:1px;
+}
+
+.sec2-1{
+margin-top: 20px;
+margin-left:1px
+}
+
+.sec2 .card{
+    border: none;
+    box-shadow: 0px 3px 10px 2px #3a1414;
+    margin: 10px;
+    margin-top: 20px;
+    height:400px;
+}
+
+.sec2 .card .service-img{
+    overflow: hidden;
+    height: 250px;
+}
+
+.sec2 .card .service-content{
+    padding: 20px;
+}
+
+.sec2 .card .service-content h4{
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 570;
+}
+
+.sec2 .card .service-content p{
+    opacity:0.8;
+    font-size:20px;
+    color: rgb(71, 28, 28);
+}
+
+.sec2 .card .service-content a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.sec2 .card .service-content a:hover{
+    color: rgb(4, 97, 97);
+}
+
+.sec2-1 .card{
+    border: none;
+    box-shadow: 0px 3px 10px 2px #350505;
+    margin: 10px;
+    margin-top: 20px;
+    height:400px;
+}
+
+.sec2-1 .card .service-img{
+    overflow: hidden;
+    height: 250px;
+}
+
+.sec2-1 .card .service-content{
+    padding: 20px;
+}
+
+.sec2-1 .card .service-content h4{
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 570;
+}
+
+.sec2-1 .card .service-content p{
+    opacity:0.8;
+    font-size:20px;
+    color: rgb(71, 28, 28);
+}
+
+.sec2-1 .card .service-content a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.sec2-1 .card .service-content a:hover{
+    color: rgb(4, 97, 97);
+}
+
+.service-2{
+    margin-top: 50px;
+}
+
+.modal .modal-header .modal-title{
+    color:rgb(77, 82, 82);
+    text-align: center;
+    font-size:27px;
+    font-weight: bolder;
+    }
+    
+    .modal form{
+        margin:10px;
+        width: 80%;
+        text-align: center;
+        box-shadow: none;
+    }
+    
+    .modal form input{
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        border-radius:5px;
+        border: 2px solid rgb(77, 82, 82);
+    }
+    
+.modal-body button{
+    margin-top: 17px;
+    margin-left: 58px;
+    text-decoration: none;
+    border-radius:7px;
+    padding: 3px;
+    background-image: linear-gradient(90deg, cornsilk, yellow);
+    transition: 1.5s;
+   font-size: 18Px;
+    color: rgb(23, 26, 22);
+    box-shadow: 2px 4px 10px 0px rgb(204, 183, 172);
+}
+
+.modal-body button:hover{
+    transition: 1.5s;
+    background-image: linear-gradient(90deg, yellow, cornsilk);
+}
+
+.service-section1{
+    background-image: linear-gradient(90deg, rgb(83, 114, 218), #000066);
+    height:320px ;
+    margin-top:5px;
+    }
+    
+    .service-section1 h1{
+        color: #ffff;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 45px;
+        padding-top: 150px;
+    }
+    
+    .service-section1 p{
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+h3{
+    text-align: center;
+    color: #3a1414;
+    font-size:34px;
+    font-weight: 750;
+}
+
+    .sec2-2 .card{
+        border: none;
+        margin: -5px;
+        margin-top: 20px;
+        height:400px;
+    }
+    
+    .sec2-2 .card .service-img{
+        overflow: hidden;
+        height: 250px;
+    }
+    
+    .sec2-2 .card .service-content{
+        padding: 20px;
+    }
+    
+    .sec2-2 .card .service-content h4{
+        color: darkblue;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 570;
+    }
+    
+    .sec2-2 .card .service-content p{
+        opacity:0.8;
+        font-size:20px;
+        color: rgb(71, 28, 28);
+        margin-left: 100px;
+    }
+    
+    .sec2-2 .card .service-content a{
+        text-decoration: none;
+        color: darkblue;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    
+    .sec2-2 .card .service-content a:hover{
+        color: rgb(4, 97, 97);
+    }
+
+    .owl-nav{
+        margin-top:-18px;;
+        text-align: center;
+        color:#3a1414;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 60px !important;
+    color: #3a1414;
+    }
+
+    .image{
+        margin-left:130px;
+        margin-top: -25px;
+    }
+
+    .cart-img{
+        margin-top: 80px;
+        margin-left:50px;
+    }
+
+    .cart-btn{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, cornsilk, yellow);
+    border-radius: 8px;
+    box-shadow:2px 4px 15px 0px rgb(51, 42, 37);
+    font-size: 23px;
+    color: rgb(15, 8, 8);
+    transition: 1s;
+    padding: 3px;
+    margin-left:715px;
+    border: 3px,solid, rgb(12, 11, 11);
+    }
+
+    .cart-btn:hover{
+        background-image: linear-gradient(90deg, yellow,cornsilk);
+        transition: 1s;
+    }
+
+    .cart-text{
+        opacity: 0.8;
+        color: #3a1414;
+        margin-left: 15px;
+    }
+
+    .cart-text-2 i{
+        color: rgb(43, 39, 39);
+    }
+
+    .cart-text-2{
+        text-align: center;
+        font-weight:450;
+        color: chocolate;
+    }
+
+    .cart-last{
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    .cards{
+        margin-top:-40px;
+    }
+
+    .main-bottom{
+        background-color:whitesmoke;
+    }
+
+    .food-sec2 .card{
+        border: none;
+        box-shadow: 0px 3px 10px 2px #3a1414;
+        margin: 10px;
+        margin-top: 20px;
+        height:400px;
+    }
+    
+    .food-sec2 .card .service-img{
+        overflow: hidden;
+        height: 250px;
+    }
+    
+    .food-sec2 .card .service-content{
+        padding: 20px;
+    }
+    
+    .food-sec2 .card .service-content h4{
+        color: darkblue;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 570;
+    }
+    
+    .food-sec2 .card .service-content p{
+        opacity:0.8;
+        font-size:20px;
+        color: rgb(71, 28, 28);
+    }
+    
+    .food-sec2 .card .service-content a{
+        text-decoration: none;
+        border-radius:6px;
+        color:rgb(236, 248, 248);
+        font-weight: 450;
+        font-size: 20px;
+        background-color:rgb(69, 72, 218);
+        padding-bottom:2px;
+        padding-right:4px;
+        padding-left:3px;
+        margin-right:87px;
+    }
+    
+    .food-sec2 .card .service-content a:hover{
+      color: rgb(248, 53, 69);
+       transition: 0.1s;
+    }
+    
+    .searchbar{
+    margin-right:250px;
+    }
+
+    .buynow-section2{
+        margin-top:70px;
+    }
+
+    .checkout{
+        margin-top: 25px;
+        text-align: center;
+    }
